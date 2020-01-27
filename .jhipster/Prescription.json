@@ -1,0 +1,36 @@
+{
+    "name": "Prescription",
+    "fields": [
+        {
+            "fieldName": "prescriptionDMSURL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "drug",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dose",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "frequency",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "period",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190416110115",
+    "entityTableName": "prescription",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "consultation",
+    "applications": "*",
+    "microserviceName": "consultation"
+}

@@ -1,0 +1,54 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bytatech.ayoos",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "microservice",
+    "baseName": "consultation",
+    "packageName": "com.bytatech.ayoos",
+    "packageFolder": "com/bytatech/ayoos",
+    "serverPort": "8001",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2QxOTZjNWM3OTg3YzBjM2QzZGMzNDgyOWZiMDNlNGI5NzUwYjk5MjhkZGRmYTljMjI3NDMyMDNkZjJiMzBiNjQ2YTc1ZDQxZTExZjhkODllMTg0NDE3ZmI1ZjYwZmUxZmVkYzE4YTZiOWZhNDc2ODczMTBiMGE4M2ViYjZjZTU=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "generator-jhipster-swagger-cli": {
+    "promptValues": {
+      "inputSpec": "http://35.243.137.225:8081/v2/api-docs",
+      "cliName": "patientService"
+    },
+    "apis": {
+      "activiti_rest_api": {
+        "spec": "/home/karthi/apache-tomcat-9.0.19/webapps/activiti-rest/docs/activiti.json"
+      },
+      "alfresco_rest_api": {
+        "spec": "/home/karthi/alfresco-community/tomcat/webapps/api-explorer/definitions/alfresco-core.yaml"
+      }
+    }
+  }
+}
